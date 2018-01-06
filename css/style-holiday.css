@@ -76,7 +76,7 @@
     overflow: auto;
     color: #333;
     font-family: 'young';
-
+    overflow-x: hidden;
 }
 .eng_list  a {
     font-size: 11px !important;
@@ -443,6 +443,16 @@ font-size: 11px;
     margin-top: 20px;
 	opacity: .90;
 }
+
+
+.whychoose {
+    background-color: #f1f1f3;
+    width: 100%;
+    float: left;
+    margin: 40px 0;
+    padding: 30px 0;
+    text-align: center;
+}
 ul.cities {
       display: flex;
     padding-left: 24px;
@@ -614,6 +624,45 @@ ul.included_one li:nth-child(odd) {
     letter-spacing: 2px;
     margin-bottom: 45px;
 }
+
+.whychooseus{background-color: #fbf5f3;width:100%; float:left; margin:40px 0;padding:30px 0; text-align:center;}
+.whychoose h1, .faqs h1{font-size:29px; color: rgb(246,115,93);font-family: "youngserifregular";    height: 40px;}
+.whychoose h5{font-size:17px; color: rgb(51,51,51);font-family: "youngserifregular";}
+.whychoose ul li{width:100%; font-size:17px;}
+.whychoose ul{float: left;list-style-type: none;margin: 20px 0 0 0;padding: 0;padding-left: 7%;
+	}
+	.room ul,.whychoose ul{
+	list-style-type:none;
+	margin: 20px 0;
+    float: left;
+}
+.room ul li, .whychoose ul li {
+    width: 80%;
+    float: left;
+    background: url(../images/Websiteicons14.png) left 9px no-repeat;
+    padding-left: 35px;
+    color: rgb(51,51,51);
+    font-family: "poppinsregular";
+    font-size: 17px !important;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.col-md-12.col-sm-12.col-xs-12.whychoose {
+    padding-bottom: 50px;
+}
+.service_box ul li, .whychooseus ul li {
+    width: 100%;
+    float: left;
+    background: url(../images/Websiteicons14.png) left center no-repeat;
+    padding-left: 35px;
+    color: rgb(51,51,51);
+    font-family: "poppinsregular";
+    font-size: 17px !important;
+    line-height: 35px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
 .col-md-12.col-sm-12.col-xs-12.footer {
     padding-top: 40px;
     margin-bottom: 70px;
@@ -699,12 +748,12 @@ span.num {
 
 /* css media */
 @media only screen and (max-width: 1024px) {
-.contact_no ul li a {
+/* .contact_no ul li a {
     font-size: 11px;
     color: #000;
     font-family: 'poppinssemibold';
     font-weight: 700;
-}
+} */
 .contact_no ul li .fa {
     padding-right: 5px;
     font-size: 12px;
@@ -726,12 +775,12 @@ ul.nav.navbar-nav li a {
 }
 }
 @media only screen and (max-width: 768px) {
-	.contact_no ul li a {
+	/* .contact_no ul li a {
     font-size: 6px;
     color: #000;
     font-family: 'poppinssemibold';
     font-weight: 700;
-}
+} */
 .top_button ul li a {
     color: #000;
     font-weight: 600;
@@ -742,13 +791,13 @@ ul.nav.navbar-nav li a {
     font-weight: 600;
     font-size: 8px;
 }
-ul.nav.navbar-nav li a {
+/* ul.nav.navbar-nav li a {
     color: #000;
     text-decoration: none;
     font-family: 'poppinssemibold';
     font-size: 10px;
     padding: 10px 10px 10px 42px;
-}
+} */
 .banner_top h1 {
     font-size: 50px;
     color: rgb(255, 255, 255);
@@ -787,6 +836,51 @@ ul.nav.navbar-nav li a {
 .De_check .container {
     padding-left: 52px;
     padding-right: 52px;
+}
+.img_story3 {
+    width: 100%;
+    float: right;
+    position: relative;
+    margin-top: 5%;
+    left: 0;
+    text-align: center;
+}
+.our_story1 {
+    width: 100%;
+    background-color: #fbf5f4;
+    float: left;
+	padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    float: right;
+}
+.story0 {
+    margin: 61px 0px 10px;
+    text-align: center;
+}
+.our_story {
+    position: relative;
+    margin-left: 4px;
+    margin-top: 0;
+    z-index: 100;
+}
+.storyfile span{width:100%;}
+.storyfile {
+    /* padding: 10px; */
+    margin-left: 0;
+    position: relative;
+    width: 92%;
+    margin-top: 28px;
+    margin: 28px auto;
+}
+.card {
+    width: 100%;
+}
+.team {
+    text-align: center;
+}
+.card img {
+    width: 300px !important;
 }
 }
 
@@ -1489,3 +1583,419 @@ li.get a:hover {
     height: 495px;
     position: relative;
 }
+
+.textholiday h4
+{
+	font-family: 'youngserifregular';
+    font-size: 49px;
+	color:#f6735d;
+}
+.textholiday p
+{
+	font-family: 'youngserifregular';
+    font-size: 20px;
+	color:#000000;
+}
+.textholiday  {
+    background-color: #fbf5f4;
+    height: 360px;
+}
+
+.bannerimg{
+	position:absolute;
+}
+.bannerview{padding:0 !important;}
+.bannerview img{width:100%;}
+.textbox {
+    padding: 47px 62px 72px 77px;
+    float: left;
+}
+.step_four h4{
+	    font-family: 'youngserifregular';
+    font-size: 16px;
+    margin-left: 4px;
+
+}
+.five h4{
+	    font-family: 'youngserifregular';
+    font-size: 16px;
+    margin-left: 68px;
+
+}
+.checking h4 {
+    font-family: 'youngserifregular';
+    font-size: 16px;
+    margin-left: 32px;
+}
+
+.mobile_icon{display:none;}
+.mobile_icon i {
+    border: 1px solid #ccc;
+    padding: 5px 8px;
+    font-size: 22px;
+    color: #555;
+    border-radius: 4px;
+	cursor:pointer;
+}
+.textbox1 h4 {
+    font-family: 'youngserifregular';
+    font-size: 44px;
+    color: #f6735d;
+}
+.textbox1 {
+    padding: 47px 62px 72px 77px;
+    float: left;
+    margin: 19px;
+}
+
+
+/* /* Media Queries dated 21-12-2017 * / */
+
+@media only screen and (max-width: 1199px) {
+
+.hed {
+    width: 70%;
+    margin: 0 auto;
+    min-height: 140px;
+}
+ul.nav.navbar-nav li a:last-child {
+    padding: 10px 26px 10px 12px !important;
+}
+}
+@media only screen and (max-width: 991px) {
+ul.nav.navbar-nav li a:first-child {
+    padding: 9px 1px 1px 21px !important;
+}
+.textholiday {
+    background-color: #fbf5f4;
+    height: 230px;
+}
+.textbox {
+    padding: 25px 62px 50px 77px;
+    float: left;
+}
+.textholiday h4 {
+    font-family: 'youngserifregular';
+    font-size: 23px;
+    color: #f6735d;
+}
+.textholiday p {
+    font-family: 'youngserifregular';
+    font-size: 13px;
+    color: #000000;
+}
+h5.Clubfred {
+    text-align: center;
+    font-family: 'youngserifregular';
+    font-size: 15px;
+    line-height: 21px;
+    color: #333;
+}
+.Rentals h4 {
+    font-size: 13px;
+    font-family: 'young';
+    line-height: 20px;
+    color: #333;
+}
+.included h5 {
+    font-family: 'poppinsregular';
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 98px;
+}
+ul.included_one {
+    list-style: none;
+    padding-left: 70px;
+    width: 85%;
+    min-height: 178px;
+}
+ul.included_one li {
+    text-align: left;
+    padding: 12px 27px;
+    font-family: 'poppinsregular';
+    font-size: 13px;
+    line-height: 11px;
+}
+
+.hed {
+    min-height: 200px !important;
+}
+.icon img {
+    width: auto !important;
+    height: 20px;
+}
+.hed h4 {
+    font-size: 14px;
+    font-family: 'poppinsregular';
+    line-height: 23px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+	.hed {
+    min-height: 112px !important;
+}
+	.textbox {
+    padding: 47px 62px 72px 77px;
+    float: left;
+}
+.textholiday h4 {
+    font-family: 'youngserifregular';
+    font-size: 49px;
+    color: #f6735d;
+}
+.textholiday p {
+    font-family: 'youngserifregular';
+    font-size: 20px;
+    color: #000000;
+}
+.textholiday {
+    background-color: #fbf5f4;
+    height: 360px;
+}
+.full {
+    background: #f1f1f3;
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    height: 495px;
+    position: relative;
+}
+.Rentals h4 {
+    font-size: 17px;
+    font-family: 'young';
+    line-height: 23px;
+    color: #333;
+}
+.included h5 {
+    font-family: 'poppinsregular';
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 98px;
+}
+ul.included_one {
+    list-style: none;
+    padding-left: 70px;
+    width: 85%;
+}
+ul.included_one li {
+    text-align: left;
+    padding: 12px 27px;
+    font-family: 'poppinsregular';
+    font-size: 16px;
+    line-height: 16px;
+}
+ul.included_one li {
+    text-align: left;
+    padding: 12px 27px;
+    font-family: 'poppinsregular';
+    font-size: 16px;
+    line-height: 16px;
+}
+.book {
+    width: 100%;
+    text-align: center !important;
+    float: left;
+    padding-left: 15px;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+.Services .full {
+    background: #f1f1f3;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    height: 630px;
+    position: relative;
+}
+.full_right {
+
+    background: #f1f1f3;
+    width: 100%;
+    float: right;
+    margin-top: 100px;
+    height: 495px;
+
+}
+div#bok {
+    margin-top: 0%;
+}
+.icon img {
+    width: auto !important;
+    height: 20px;
+}
+ul.foot_logo {
+    padding-left: 0px;
+    text-align: center !important;
+}
+ul.story {
+    padding-left: 0px;
+    list-style: none;
+}
+ul.soc li img {
+    width: 43%;
+}
+}
+
+@media only screen and (max-width: 425px) {
+	ul.story {
+    padding-left: 0px;
+    list-style: none;
+}
+
+	.textholiday h4 {
+    font-family: 'youngserifregular';
+    font-size: 40px;
+    color: #f6735d;
+}
+.textholiday p {
+    font-family: 'youngserifregular';
+    font-size: 15px;
+    color: #000000;
+}
+h5.Clubfred {
+
+    text-align: center;
+    font-family: 'youngserifregular';
+    font-size: 18px;
+    line-height: 21px;
+    color: #333;
+
+}
+.Rentals h4 {
+    font-size: 15px;
+    font-family: 'young';
+    line-height: 23px;
+    color: #333;
+}
+.check_text h1 {
+    font-size: 26px;
+}
+h5.Clubfred {
+
+    text-align: center;
+    font-family: 'youngserifregular';
+    font-size: 17px;
+    line-height: 21px;
+    color: #333;
+
+}
+.textbox {
+    padding: 47px 21px 72px 37px;
+    float: left;
+}
+}
+@media only screen and (max-width: 375px) {
+	.Rentals {
+    width: 83%;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+	.textbox {
+    padding: 47px 62px 30px 40px;
+    float: left;
+}
+h5.Clubfred {
+    text-align: center;
+    font-family: 'youngserifregular';
+    font-size: 15px;
+    line-height: 21px;
+    color: #333;
+}
+.Rentals h4 {
+    font-size: 15px;
+    font-family: 'young';
+    line-height: 23px;
+    color: #333;
+}
+ul.included_one {
+    list-style: none;
+    padding-left: 63px;
+    width: 86%;
+}
+}
+@media only screen and (max-width: 360px) {
+.Rentals h4 {
+    font-size: 12px;
+    font-family: 'young';
+    line-height: 23px;
+    color: #333;
+}
+ul.included_one li {
+    text-align: left;
+    padding: 12px 27px;
+    font-family: 'poppinsregular';
+    font-size: 13px;
+    line-height: 15px;
+}
+.textholiday p {
+    font-family: 'youngserifregular';
+    font-size: 15px;
+    color: #000000;
+}
+.hed {
+    min-height: 120px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+	.textholiday h4 {
+    font-family: 'youngserifregular';
+    font-size: 26px;
+    color: #f6735d;
+}
+.textholiday {
+    background-color: #fbf5f4;
+    height: 285px;
+}
+.textholiday p {
+    font-family: 'youngserifregular';
+    font-size: 14px;
+    color: #000000;
+}
+h5.Clubfred {
+    text-align: center;
+    font-family: 'youngserifregular';
+    font-size: 13px;
+    line-height: 21px;
+    color: #333;
+}
+.Rentals {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+.Rentals h4 {
+
+    font-size: 14px;
+    font-family: 'young';
+    line-height: 23px;
+    color: #333;
+
+}
+.included h5 {
+    font-family: 'poppinsregular';
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 88px;
+}
+ul.included_one {
+    list-style: none;
+    padding-left: 30px;
+    width: 91%;
+}
+ul.included_one li {
+    text-align: left;
+    padding: 12px 27px;
+    font-family: 'poppinsregular';
+    font-size: 14px;
+    line-height: 16px;
+}
+.hed {
+    min-height: 120px;
+}
+}
+
