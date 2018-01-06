@@ -6,10 +6,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/responsive.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/youngserif" type="text/css"/>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+$(document).ready(function(){
+    $(".mobile_icon i").click(function(){
+        $(".mobile_navigation").slideToggle();
+    });
+});
+</script>
   </head>
   <body>
 <div class="main">    
@@ -22,14 +31,14 @@
 			 </div>
 			 <div class="col-md-10 col-sm-10 col-xs-12 hed_right">
 			    <div class="top_right">
-				    <div class="col-md-3 col-sm-3 col-xs-6 text-left">
+				    <div class="col-md-3 col-sm-3 col-xs-12 text-left">
 					   <div class="contact_no">
 					      <ul>
 							  <li><img class="phone" src="images/phone.png"><a href=""><span class="num">24/7</span> 020 341 38 14</a></li>
 							</ul>
 					   </div>
 					</div>
-					<div class="col-md-9 col-sm-9 col-xs-6 text-right">
+					<div class="col-md-9 col-sm-9 col-xs-12 text-right">
 					   <div class="top_button">
 					     <ul>
 							  <li class="club"><a href=""><span class="club_s">Join the club</span--></a></li>
@@ -40,10 +49,12 @@
 				</div>
 				<div class="bottom_right">
 				    <nav class="navbar">
+					<div class="mobile_icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
 					  <div class="container-fluid">
 						<!--div class="navbar-header">
 						  <a class="navbar-brand" href="#">WebSiteName</a>
 						</div-->
+						<div class="mobile_navigation">
 						<ul class="nav navbar-nav">
 						  <li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">HOUSEKEEPING
@@ -65,6 +76,7 @@
 						  <li><a href="holiday.html">AIRBNB SERVICE</a></li>
 						  <li><a href="#">HOTELS</a></li>					  
 						</ul>
+						</div>
 					  </div>
 					</nav> 
 				</div>
@@ -83,13 +95,16 @@
 				<div class="bdr"><img src="images/bdr.jpg"></div>    
 				<div class="banner_bottom"><h5><span class="Made">Made with love for</span></br><span class="COUPLES">COUPLES</span></h5></div>
                 
-					<div class="banner_arrow">
+					<div class="banner_arrow" id="desktop-arrow">
 					    <div class="circle_div"><a href="#"><!--i class="fa fa-angle-down" aria-hidden="true"></i--><img src="images/arror.png"></a></div>
 					</div>				
 			</div>
 		  </div>
 		   <div class="clear" style="clear: both;"></div>	
 		   <!--Banner Sections End--->
+		   <div class="banner_arrow" id="mobile-arrow">
+					    <div class="circle_div"><a href="#"><!--i class="fa fa-angle-down" aria-hidden="true"></i--><img src="images/arror.png"></a></div>
+					</div>
 		 <!--Banner Sections bottom--->
 		  <div class="col-md-12 col-sm-12 col-xs-12 De_check">
 		       <div class="container">
@@ -98,22 +113,22 @@
 				  </div>
 				  
 					  <div class="Decheck_bottom">
-						 <div class="col-md-3 col-sm-3 col-xs-6 step_four">
+						 <div class="col-md-3 col-sm-6 col-xs-12 step_four">
 						   <h4>01</h4>
 						   <h3>The intake</h3>
 						   <p>Onze city manager noteert uw specifieke wensen.</p>
 						 </div>
-						 <div class="col-md-3 col-sm-3 col-xs-6 step_four">
+						 <div class="col-md-3 col-sm-6 col-xs-12 step_four">
 							<h4>02</h4>
 						   <h3>Jouw eigen Fred.</h3>
 						   <p>Wij kiezen de <br>home manager die <br>bij uw wekelijkse routine past.</p>
 						 </div>
-						 <div class="col-md-3 col-sm-3 col-xs-6 step_four">
+						 <div class="col-md-3 col-sm-6 col-xs-12 step_four">
 							<h4>03</h4>
 						   <h3>Home management.</h3>
 						   <p>De woning and sleutels worden altijd goed verzorgd.</p>
 						 </div>
-						 <div class="col-md-3 col-sm-3 col-xs-6 step_four">
+						 <div class="col-md-3 col-sm-6 col-xs-12 step_four">
 						   <h4>04</h4>
 						   <h3>Relax.</h3>
 						   <p>Geniet van uw huis na een lange dag werken.</p>
@@ -251,14 +266,14 @@
 					     
 					  </div>
 					  <div class="testi">
-					    <h2> “Er is een gevoel van    
+					    <h2> "Er is een gevoel van    
 </h2>
 						<h2>of peace and calm</h2>
 						<h2>rust en kalmte als</h2>
 						<h2>je thuiskomt en alles</h2>
 						<h2>opgeruimd is.</h2>
 						<h2>Geen enkele andere dienst </h2>
-						<h2>  doet het op deze manier.”</h2>
+						<h2>  doet het op deze manier."</h2>
 					  </div>
 					  <div class="book" id="book"><button type="button">Meer tevreden klanten</button></div>	
 					</div>	
